@@ -282,12 +282,12 @@ section{
 }
 
 .img-hero img{
-    position: relative;
-    width: 360px;
-    height: 360px;
-    object-fit: cover;
+    width: 340px;
+    height: 340px;
+    object-fit: contain; /* key for perfect fit */
     border-radius: 50%;
-    object-position: center top; /* adjust vertical alignment */
+    background: white;  /* fallback for transparent PNGs */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     z-index: 10;
 }
 
