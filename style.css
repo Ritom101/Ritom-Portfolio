@@ -335,7 +335,7 @@ section{
 .rotate-text .text{
     position: absolute;
     width: 370px;
-    height: 370px;
+    height: 490px;
     background: #f2f6fb;
     border-radius: 50%;
     box-shadow: 0 1px 6px 5.94px rgba(0,0,0,0.2);
