@@ -285,6 +285,7 @@ section{
     position: relative;
     width: 400px;
     height: auto;
+    top: 38px; 
     z-index: 10;
 }
 
@@ -314,7 +315,7 @@ section{
     content: "";
     position: absolute;
     inset: 20px;
-    background: #00aaff;
+    background: #f6f7f8;
     border-radius: 50%;
     z-index: 1;
 }
