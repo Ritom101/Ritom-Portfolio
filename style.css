@@ -282,10 +282,10 @@ section{
 }
 
 .img-hero img{
-    width: 340px;
-    height: 340px;
-    object-fit: contain;
-    object-position: center 30px;  /* 👈 This line shifts image down */
+    width: 360px;
+    height: 360px;
+    object-fit: cover;
+    object-position: center 15px;  /* Adjusts image downward */
     border-radius: 50%;
     background: white;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
@@ -334,8 +334,8 @@ section{
 
 .rotate-text .text{
     position: absolute;
-    width: 490px;
-    height: 490px;
+    width: 370px;
+    height: 370px;
     background: #f2f6fb;
     border-radius: 50%;
     box-shadow: 0 1px 6px 5.94px rgba(0,0,0,0.2);
