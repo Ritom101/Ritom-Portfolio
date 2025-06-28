@@ -284,9 +284,10 @@ section{
 .img-hero img{
     width: 340px;
     height: 340px;
-    object-fit: contain; /* key for perfect fit */
+    object-fit: contain;
+    object-position: center 30px;  /* 👈 This line shifts image down */
     border-radius: 50%;
-    background: white;  /* fallback for transparent PNGs */
+    background: white;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     z-index: 10;
 }
