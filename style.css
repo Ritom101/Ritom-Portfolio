@@ -282,12 +282,11 @@ section{
 }
 
 .img-hero img{
-    width: 360px;
-    height: 360px;
-    object-fit: cover;
-    object-position: center 15px;  /* Adjusts image downward */
+    width: 340px;
+    height: 340px;
+    object-fit: contain; /* key for perfect fit */
     border-radius: 50%;
-    background: white;
+    background: white;  /* fallback for transparent PNGs */
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     z-index: 10;
 }
@@ -334,7 +333,7 @@ section{
 
 .rotate-text .text{
     position: absolute;
-    width: 370px;
+    width: 490px;
     height: 490px;
     background: #f2f6fb;
     border-radius: 50%;
